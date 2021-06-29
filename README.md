@@ -7,8 +7,8 @@ A drowsiness detection model in the making
 ### 1. Clone repo
 
 ```sh
-$ git clone https://github.com/kcaashish/Rennervate.git
-$ cd Rennervate
+$ git clone https://github.com/kcaashish/RennervateML.git
+$ cd RennervateML
 ```
 
 ### 2. Using virtual environment ".venv" (or choose your name)
@@ -42,7 +42,7 @@ You should try installing each requirements separately if you are getting errors
     Debian / Ubuntu
     $ sudo apt install cmake
     ```
-    
+
   - Then, in the virtual environment:
     ```sh
     $ pip install cmake
@@ -57,7 +57,7 @@ You should try installing each requirements separately if you are getting errors
     ```sh
     $ pip install opencv-python
     ```
-    
+
 ### 4. Open project with VS Code
 
 ```sh
