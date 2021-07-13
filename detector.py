@@ -169,16 +169,16 @@ def main():
                                     COUNTER += 1
 
                                     if COUNTER >= EAR_CONSECUTIVE_FRAMES:
-                                    	'''
-                                        if not ALARM_ON:
-                                            ALARM_ON = True
 
-                                            # creating new thread to play the alarm in background
-                                            audio_thread = threading.Thread(
-                                                target=raise_alarm
-                                            )
-                                            audio_thread.start()
-										'''
+                                        # if not ALARM_ON:
+                                        #     ALARM_ON = True
+
+                                        #     # creating new thread to play the alarm in background
+                                        #     audio_thread = threading.Thread(
+                                        #         target=raise_alarm
+                                        #     )
+                                        #     audio_thread.start()
+
                                         cv2.putText(
                                             frame,
                                             "Drowsiness Alert!",
